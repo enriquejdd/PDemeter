@@ -5,6 +5,8 @@
  */
 package enrique.proyectodemeter;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Enrique
@@ -16,6 +18,28 @@ public class NewJFrame extends javax.swing.JFrame {
      */
     public NewJFrame() {
         initComponents();
+        
+        ImageIcon img = new ImageIcon("./Imagenes/demeter.png");
+        
+        imagen1.setIcon(img);
+        imagen3.setIcon(img);
+        jButton1.setIcon(img);
+        jButton2.setIcon(img);
+        jButton3.setIcon(img);
+        jButton4.setIcon(img);
+        jButton5.setIcon(img);
+        jButton6.setIcon(img);
+        jButton7.setIcon(img);
+        jButton15.setIcon(img);
+        jButton16.setIcon(img);
+        jButton17.setIcon(img);
+        jButton18.setIcon(img);
+        jButton19.setIcon(img);
+        jButton20.setIcon(img);
+        jButton21.setIcon(img);
+
+        
+
     }
 
     /**
@@ -46,7 +70,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        imagen1.setIcon(new javax.swing.ImageIcon("C:\\Users\\Enrique\\Documents\\NetBeansProjects\\ProyectoDemeter\\Imagenes\\pVico1.jpg")); // NOI18N
         imagen1.setText("imagen1");
         imagen1.setToolTipText("");
         imagen1.setPreferredSize(new java.awt.Dimension(150, 150));
@@ -75,7 +98,6 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Enrique\\Documents\\NetBeansProjects\\ProyectoDemeter\\Imagenes\\pVico5.png")); // NOI18N
         jButton4.setText("imagen5");
         jButton4.setPreferredSize(new java.awt.Dimension(150, 150));
 
@@ -88,14 +110,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton7.setText("imagen8");
         jButton7.setMaximumSize(new java.awt.Dimension(150, 150));
 
-        jButton15.setText("imagen7");
+        jButton15.setText("imagen15");
         jButton15.setPreferredSize(new java.awt.Dimension(150, 150));
 
-        jButton16.setText("imagen8");
+        jButton16.setText("imagen16");
         jButton16.setMaximumSize(new java.awt.Dimension(150, 150));
 
-        imagen3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/enrique/Imagenes/pVico1.jpg"))); // NOI18N
-        imagen3.setText("imagen1");
+        imagen3.setText("imagen9");
         imagen3.setPreferredSize(new java.awt.Dimension(150, 150));
         imagen3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -103,10 +124,11 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton17.setText("imagen2");
+        jButton17.setText("imagen10");
         jButton17.setPreferredSize(new java.awt.Dimension(150, 150));
 
-        jButton18.setText("imagen3");
+        jButton18.setText("imagen11");
+        jButton18.setActionCommand("imagen11");
         jButton18.setPreferredSize(new java.awt.Dimension(150, 150));
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -114,7 +136,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton19.setText("imagen4");
+        jButton19.setText("imagen12");
         jButton19.setPreferredSize(new java.awt.Dimension(150, 150));
         jButton19.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -122,12 +144,16 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton20.setIcon(new javax.swing.ImageIcon("C:\\Users\\Enrique\\Documents\\NetBeansProjects\\ProyectoDemeter\\Imagenes\\pVico5.png")); // NOI18N
-        jButton20.setText("imagen5");
+        jButton20.setText("imagen13");
         jButton20.setPreferredSize(new java.awt.Dimension(150, 150));
 
-        jButton21.setText("imagen6");
+        jButton21.setText("imagen14");
         jButton21.setPreferredSize(new java.awt.Dimension(150, 150));
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -230,6 +256,10 @@ public class NewJFrame extends javax.swing.JFrame {
     private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton21ActionPerformed
 
     /**
      * @param args the command line arguments
